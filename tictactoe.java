@@ -1,4 +1,4 @@
-package main.BridgeLabz.tittactoe;
+package main.BridgeLabz;
 
 public class tictactoe {
     static char[] board = new char[10];
