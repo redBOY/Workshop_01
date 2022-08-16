@@ -1,17 +1,15 @@
-package main.day5;
+package main.BridgeLabz.tittactoe;
 
-import java.util.Scanner;
-public class evenodd {
-    public static void main(String[] args){
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your number: ");
-        int c = sc.nextInt();
-
-        if (c % 2 == 0){
-            System.out.println("number is even");
-        }else{
-            System.out.println("number is odd");
+public class tictactoe {
+    public class tictactoe {
+    static char[] board = new char[10];
+    static void createboard(char []board){
+        for(int i =1; i<10; i++){
+            board[i]=' ';
         }
     }
+public static void main(String[] args) {
+    System.out.println("welcome to tictactoe game");
 }
+}
+
