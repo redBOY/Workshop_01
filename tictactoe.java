@@ -1,4 +1,4 @@
-package main.day5;
+package main.BridgeLabz.tictactoe;
 
 import java.util.Scanner;
 public class evenodd {
