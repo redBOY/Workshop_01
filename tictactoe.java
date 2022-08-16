@@ -1,4 +1,4 @@
-package main.BrigdeLabz.tictactoe;
+package main.BrigdeLabz;
 import java.util.Scanner;
 public class tictactoe {
 
