@@ -1,7 +1,6 @@
 package main.BridgeLabz.tittactoe;
 
 public class tictactoe {
-    public class tictactoe {
     static char[] board = new char[10];
     static void createboard(char []board){
         for(int i =1; i<10; i++){
