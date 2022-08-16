@@ -1,6 +1,6 @@
 package main.BrigdeLabz;
 import java.util.Scanner;
-public class tictactoe {
+public class Choosing_the_Letter {
 
 
     public class TicTacToe {
