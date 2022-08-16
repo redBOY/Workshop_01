@@ -1,9 +1,8 @@
 package main.BridgeLabz;
-package com.bridgelabz.tictactoe;
 
 import java.util.Scanner;
 
-public class tictactoe {
+public class board {
 
     static char board[] = new char[10];
     static Scanner scr = new Scanner(System.in);
