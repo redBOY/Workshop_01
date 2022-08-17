@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class board {
 
     static char board[] = new char[10];
-    static Scanner scr = new Scanner(System.in);
+    static Scanner abc = new Scanner(System.in);
     static char playerLetter;
     static char computerLetter;
 
@@ -17,7 +17,7 @@ public class board {
 
     static void getLetter(){
         System.out.println("Choose your letter X or O");
-        playerLetter = scr.next().toUpperCase().charAt(0);
+        playerLetter = abc.next().toUpperCase().charAt(0);
         computerLetter = (playerLetter == 'X') ? 'O' : 'X';
         System.out.println("Your letter is: "+playerLetter);
         System.out.println("computer letter is: "+computerLetter);
